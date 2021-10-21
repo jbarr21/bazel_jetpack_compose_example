@@ -35,6 +35,7 @@ maven_install(
         "androidx.compose.ui:ui-tooling:{}".format(_COMPOSE_VERSION),
         "androidx.compose.compiler:compiler:{}".format(_COMPOSE_VERSION),
         "androidx.compose.runtime:runtime:{}".format(_COMPOSE_VERSION),
+        "com.uber.rib:rib-android-compose:0.12.0",
     ],
     override_targets = {
         "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm": "@//:kotlinx_coroutines_core_jvm",

@@ -17,5 +17,6 @@ kt_android_library(
         "@maven//:androidx_core_core_ktx",
         "@maven//:com_google_android_material_material",
         "@maven//:org_jetbrains_kotlin_kotlin_stdlib",
+        "@maven//:com_uber_rib_rib_android_compose"
     ],
 )
